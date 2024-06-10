@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-plugin-tester",
+  "version": "0.0.1",
+  "description": "Testing Obsidian plugin running on Obsidian Application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "obsidian"
+  ],
+  "author": "Doggy-Footprint",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
