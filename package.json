@@ -2,10 +2,12 @@
   "name": "obsidian-plugin-tester",
   "version": "0.0.1",
   "description": "Testing Obsidian plugin running on Obsidian Application.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "npm run test"
+    "test": "npm run test",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build"
   },
   "keywords": [
     "obsidian"
