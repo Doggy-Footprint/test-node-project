@@ -1,2 +1,2 @@
-import './test'
+export * from './test'
 
