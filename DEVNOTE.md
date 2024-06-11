@@ -1,3 +1,9 @@
+# Start NPM project
+
+```
+npm init
+```
+
 # Intsall typscript in npm project
 ```
 npm install typescript
