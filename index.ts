@@ -1,7 +1,2 @@
-function hello(name: string) {
-    return "Hello " + name;
-}
+import './test'
 
-let message = hello("Doggy-FP");
-
-console.log(message);
