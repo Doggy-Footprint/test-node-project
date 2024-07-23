@@ -4,8 +4,8 @@
   "description": "Testing Obsidian plugin running on Obsidian Application.",
   "main": "dist/index.js",
   "scripts": {
+    "dev": "npm run build && node dist/index.js",
     "build": "tsc",
-    "test": "npm run test",
     "clean": "rm -rf dist",
     "rebuild": "npm run clean && npm run build"
   },
