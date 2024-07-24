@@ -9,7 +9,7 @@ class A {
     }
 }
 
-export default function test_date() {
+function test_date() {
     console.log('---test initialization---');
 
     const a = new A();

@@ -36,7 +36,7 @@ class Ext_B extends Base {
     }
 }
 
-export default function test_base_type_variable() {
+function test_base_type_variable() {
     let var_A: Ext_A = new Ext_A('A', 1);
     let var_B: Ext_B = new Ext_B([1,2,3], 4);
     

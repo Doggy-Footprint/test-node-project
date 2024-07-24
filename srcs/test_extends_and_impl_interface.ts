@@ -34,7 +34,7 @@ class Rectangle implements ShapeWithOps {
     }
 }
 
-export default function test_implementing_interface() {
+function test_implementing_interface() {
     // Using the class
     const myRectangle = new Rectangle("blue", 5, 10);
     console.log(`Color: ${myRectangle.color}`);

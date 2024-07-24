@@ -1,7 +1,4 @@
-import test_date from './test_date';
-import test_base_type_variable from './test_base_type_variable';
-import test_JSON_serialization from './test_JSON_serialization';
-import test_implementing_interface from './test_extends_and_impl_interface';
+import test_JSON_serialization from "./test_JSON_serialization";
 
 console.log('running');
 
@@ -15,10 +12,15 @@ if (false) {
 
 if (false) {
     test_JSON_serialization();
+    // TODO need to import: why? 
+}
+
+if (false) {
+    test_implementing_interface();
 }
 
 if (true) {
-    test_implementing_interface();
+    test_unit_type();
 }
 
 console.log('ended');
