@@ -4,6 +4,7 @@ interface Shape {
 }
 
 interface ShapeWithOps extends Shape {
+    color: string; // declaration merging
     area: () => number;
     perimeter: () => number;
 }
