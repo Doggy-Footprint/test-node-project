@@ -1,12 +1,15 @@
 // Define an interface
 interface Shape {
     color: string;
+}
+
+interface ShapeWithOps extends Shape {
     area: () => number;
     perimeter: () => number;
 }
   
 // Implement the interface in a class
-class Rectangle implements Shape {
+class Rectangle implements ShapeWithOps {
     // Properties defined by the interface
     color: string; // Note that `color` is declared again
     // new properties
