@@ -1,3 +1,4 @@
+import * as fs from 'fs';
 export * from './test'
 
 console.log('running');
@@ -80,7 +81,21 @@ if (false) {
     // Why this works..
 }
 
+if (true) {
+    const statistic = {
+        useCount: 1,
+        lastUsed: new Date()
+    }
 
+    const jsonString = JSON.stringify(statistic, null, 4);
+    fs.writeFileSync('sample.json', jsonString, 'utf8');
+
+    console.log('---stored json file---');
+
+    const jsonData = fs.readFileSync('sample.json', 'utf8');
+    const loadedStat = JSON.parse(jsonData);
+    console.log(`---loaded json file: ${loadedStat.useCount}, ${loadedStat.lastUsed}`);
+}
 
 
 
