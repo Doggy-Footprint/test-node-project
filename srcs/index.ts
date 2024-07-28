@@ -1,4 +1,5 @@
 import test_JSON_serialization from "./test_JSON_serialization";
+import test_typeof from "./typeof";
 
 console.log('running');
 
@@ -19,8 +20,12 @@ if (false) {
     test_implementing_interface();
 }
 
-if (true) {
+if (false) {
     test_unit_type();
+} 
+
+if (true) {
+    test_typeof();
 }
 
 console.log('ended');
