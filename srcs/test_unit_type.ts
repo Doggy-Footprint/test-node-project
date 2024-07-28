@@ -3,7 +3,6 @@ function adultBook(book: myBook): boolean {
     return book === 'adult';
 }
 
-
 function test_unit_type() {
     let book1 = 'adult';
 
