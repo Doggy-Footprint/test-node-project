@@ -1,5 +1,6 @@
 import test_JSON_serialization from "./test_JSON_serialization";
 import test_typeof from "./typeof";
+import test_intersection from "./test_intersection"
 
 console.log('running');
 
@@ -14,6 +15,7 @@ if (false) {
 if (false) {
     test_JSON_serialization();
     // TODO need to import: why? 
+    // TODO: seems like runtime error. Maybe other functions are needed to be imported also, but not caught in runtime
 }
 
 if (false) {
@@ -24,8 +26,12 @@ if (false) {
     test_unit_type();
 } 
 
-if (true) {
+if (false) {
     test_typeof();
+}
+
+if (true) {
+    test_intersection();
 }
 
 console.log('ended');
