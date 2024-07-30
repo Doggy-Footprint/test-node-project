@@ -1,0 +1,1 @@
+- [ ] read [typescript-intersection-types-of-function](https://stackoverflow.com/questions/66493902/typescript-intersection-types-of-function) and summarize in **test_intersection.ts**
