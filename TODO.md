@@ -1,1 +1,3 @@
 - [ ] read [typescript-intersection-types-of-function](https://stackoverflow.com/questions/66493902/typescript-intersection-types-of-function) and summarize in **test_intersection.ts**
+    - [ ] deffered type interpretation until use
+    - [ ] [contravariant type](https://en.m.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science))
