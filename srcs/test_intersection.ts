@@ -113,6 +113,7 @@ sampleFunction('abc') result in ${sampleFunction('abc')}
 sampleFunction(50) result in ${sampleFunction(50)}
 
 ! note that intersection in function type result in including both
+Intersection of function type is as same as overloading
 `)
 }
 
